@@ -1,12 +1,49 @@
+body {
+    font-family: "Courier New", Courier, monospace; 
+    background-color: #fffacd; 
+    padding: 20px; 
+}
 
-/* 
+h1 {
+    text-decoration: underline; 
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-*/
+.botones-prioridad button {
+    border-radius: 5px; 
+}
+
+button {
+    border: 1px solid black; 
+    margin-right: 5px; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+}
+
+.bloques-tareas {
+    display: flex;
+}
+
+.bloque ul li {
+    font-family: "Segoe Script", "Brush Script MT", cursive; 
+}
+
+.bloque {
+    border: 1px solid black;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
